@@ -1,8 +1,25 @@
-# React + Vite
+# My React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a React application built using Vite and Tailwind CSS. It includes multiple pages with form validation, navigation, and Redux for state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Form submission with validation
+- Anagram detection
+- Display submitted form data on a separate page
+- CSS animations for enhanced user experience
+
+## Technologies Used
+
+- React
+- Redux
+- Vite
+- Tailwind CSS
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
