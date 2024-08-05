@@ -17,7 +17,7 @@ const NavBar = () => {
         {isOpen && (
           <div className="absolute right-0 mt-2 w-48 bg-gray-800 rounded-lg shadow-lg">
             <Link 
-              to="/page1" 
+              to="/" 
               className="block px-4 py-2 text-white hover:bg-gray-700"
               onClick={() => setIsOpen(false)}
             >
@@ -30,19 +30,13 @@ const NavBar = () => {
             >
               Number 2
             </Link>
-            <Link 
-              to="/page3" 
-              className="block px-4 py-2 text-white hover:bg-gray-700"
-              onClick={() => setIsOpen(false)}
-            >
-              Number 3
-            </Link>
+
             <Link 
               to="/page4" 
               className="block px-4 py-2 text-white hover:bg-gray-700"
               onClick={() => setIsOpen(false)}
             >
-              Number 4 5 and 6
+              Number 3 4 5 and 6
             </Link>
           </div>
         )}
